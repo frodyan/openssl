@@ -107,7 +107,7 @@ int main()
 {
     const std::string key = generateRandomString(kBlockSize);
 
-    const std::string originalMessage = "KurakinElmir1234"; //length == kBlockSize
+    const std::string originalMessage = "IvanIvanov123456"; //length == kBlockSize
     const std::string originalTag = generateTag(originalMessage, key);
 
     const std::string randomGeneratedMessage = generateRandomString(originalMessage.size()); //try generate random message with same length and check tag
